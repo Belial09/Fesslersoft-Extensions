@@ -41,8 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BooleanExtensions.cs" />
     <Compile Include="CharacterExtensions.cs" />
     <Compile Include="DbConnectionExtensions.cs" />
+    <Compile Include="DictionaryExtensions.cs" />
     <Compile Include="FileInfoExtensions.cs" />
     <Compile Include="GenericExtensions.cs" />
     <Compile Include="ObjectExtensions.cs" />
