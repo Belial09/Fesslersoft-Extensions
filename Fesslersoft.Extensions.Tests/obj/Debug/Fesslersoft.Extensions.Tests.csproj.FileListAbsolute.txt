@@ -1,0 +1,9 @@
+D:\.NET Projekte\Fesslersoft.Extensions\Fesslersoft.Extensions.Tests\bin\Debug\Fesslersoft.Extensions.Tests.dll
+D:\.NET Projekte\Fesslersoft.Extensions\Fesslersoft.Extensions.Tests\bin\Debug\Fesslersoft.Extensions.Tests.pdb
+D:\.NET Projekte\Fesslersoft.Extensions\Fesslersoft.Extensions.Tests\bin\Debug\Fesslersoft.Extensions.dll
+D:\.NET Projekte\Fesslersoft.Extensions\Fesslersoft.Extensions.Tests\bin\Debug\nunit.framework.dll
+D:\.NET Projekte\Fesslersoft.Extensions\Fesslersoft.Extensions.Tests\bin\Debug\Fesslersoft.Extensions.pdb
+D:\.NET Projekte\Fesslersoft.Extensions\Fesslersoft.Extensions.Tests\bin\Debug\nunit.framework.xml
+D:\.NET Projekte\Fesslersoft.Extensions\Fesslersoft.Extensions.Tests\obj\Debug\Fesslersoft.Extensions.Tests.csprojResolveAssemblyReference.cache
+D:\.NET Projekte\Fesslersoft.Extensions\Fesslersoft.Extensions.Tests\obj\Debug\Fesslersoft.Extensions.Tests.dll
+D:\.NET Projekte\Fesslersoft.Extensions\Fesslersoft.Extensions.Tests\obj\Debug\Fesslersoft.Extensions.Tests.pdb
