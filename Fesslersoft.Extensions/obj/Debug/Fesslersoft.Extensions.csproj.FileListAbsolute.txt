@@ -5,6 +5,5 @@ D:\.NET Projekte\Fesslersoft.Extensions\Fesslersoft.Extensions.GIT\obj\Debug\Fes
 D:\.NET Projekte\Fesslersoft.Extensions\Fesslersoft.Extensions.GIT\obj\Debug\Fesslersoft.Extensions.pdb
 D:\.NET Projekte\Fesslersoft.Extensions\Fesslersoft.Extensions.GIT\Fesslersoft.Extensions\bin\Debug\Fesslersoft.Extensions.dll
 D:\.NET Projekte\Fesslersoft.Extensions\Fesslersoft.Extensions.GIT\Fesslersoft.Extensions\bin\Debug\Fesslersoft.Extensions.pdb
-D:\.NET Projekte\Fesslersoft.Extensions\Fesslersoft.Extensions.GIT\Fesslersoft.Extensions\obj\Debug\Fesslersoft.Extensions.csprojResolveAssemblyReference.cache
 D:\.NET Projekte\Fesslersoft.Extensions\Fesslersoft.Extensions.GIT\Fesslersoft.Extensions\obj\Debug\Fesslersoft.Extensions.dll
 D:\.NET Projekte\Fesslersoft.Extensions\Fesslersoft.Extensions.GIT\Fesslersoft.Extensions\obj\Debug\Fesslersoft.Extensions.pdb

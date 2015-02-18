@@ -8,29 +8,112 @@ namespace Fesslersoft.Extensions.Tests.Generic
     public class Test
     {
         [Test]
-        public void TestA()
+        public void Test_IsLargerThan_Int32_Int32_B_GreaterThan_A()
         {
-            var varA = new decimal(100.00);
-            var varB = (Int64) 1000;
-            var varC = (short) 150;
-            var varD = (Double) 10.10;
+            Int32 valueA = 10;
+            Int32 valueB = 20;
 
-
-            Assert.That(varB.IsLargerThan(varA));
-            Assert.That(varC.IsLargerThan(varA));
-            Assert.That(!varD.IsLargerThan(varA));
-
-            Assert.That(!varA.IsLargerThan(varB));
-            Assert.That(!varC.IsLargerThan(varB));
-            Assert.That(!varD.IsLargerThan(varB));
-
-            Assert.That(varB.IsLargerThan(varC));
-            Assert.That(!varA.IsLargerThan(varC));
-            Assert.That(!varD.IsLargerThan(varC));
-
-            Assert.That(varB.IsLargerThan(varD));
-            Assert.That(varC.IsLargerThan(varD));
-            Assert.That(varA.IsLargerThan(varD));
+            Assert.That(!valueA.IsLargerThan(valueB));
         }
+
+        [Test]
+        public void Test_IsLargerThan_Int32_Int32_A_GreaterThan_B()
+        {
+            Int32 valueB = 10;
+            Int32 valueA = 20;
+
+            Assert.That(valueA.IsLargerThan(valueB));
+        }
+
+        [Test]
+        public void Test_IsLargerThan_Int32_Int32_A_Equals_B()
+        {
+            Int32 valueB = 10;
+            Int32 valueA = 10;
+
+            Assert.That(!valueA.IsLargerThan(valueB));
+        }
+
+        [Test]
+        public void Test_IsLargerThan_Int16_Int16_B_GreaterThan_A()
+        {
+            Int16 valueA = 10;
+            Int16 valueB = 20;
+
+            Assert.That(!valueA.IsLargerThan(valueB));
+        }
+
+        [Test]
+        public void Test_IsLargerThan_Int16_Int16_A_GreaterThan_B()
+        {
+            Int16 valueB = 10;
+            Int16 valueA = 20;
+
+            Assert.That(valueA.IsLargerThan(valueB));
+        }
+
+        [Test]
+        public void Test_IsLargerThan_Int16_Int16_A_Equals_B()
+        {
+            Int16 valueB = 10;
+            Int16 valueA = 10;
+
+            Assert.That(!valueA.IsLargerThan(valueB));
+        }
+
+        [Test]
+        public void Test_IsLargerThan_Int64_Int64_B_GreaterThan_A()
+        {
+            Int64 valueA = 10;
+            Int64 valueB = 20;
+
+            Assert.That(!valueA.IsLargerThan(valueB));
+        }
+
+        [Test]
+        public void Test_IsLargerThan_Int64_Int64_A_GreaterThan_B()
+        {
+            Int64 valueB = 10;
+            Int64 valueA = 20;
+
+            Assert.That(valueA.IsLargerThan(valueB));
+        }
+
+        [Test]
+        public void Test_IsLargerThan_Int64_Int64_A_Equals_B()
+        {
+            Int64 valueB = 10;
+            Int64 valueA = 10;
+
+            Assert.That(!valueA.IsLargerThan(valueB));
+        }
+
+        [Test]
+        public void Test_IsLargerThan_Double_Double_B_GreaterThan_A()
+        {
+            Double valueA = 10.10;
+            Double valueB = 20.20;
+
+            Assert.That(!valueA.IsLargerThan(valueB));
+        }
+
+        [Test]
+        public void Test_IsLargerThan_Double_Double_A_GreaterThan_B()
+        {
+            Double valueB = 10.10;
+            Double valueA = 20.20;
+
+            Assert.That(valueA.IsLargerThan(valueB));
+        }
+
+        [Test]
+        public void Test_IsLargerThan_Double_Double_A_Equals_B()
+        {
+            Double valueB = 10.00;
+            Double valueA = 10.00;
+
+            Assert.That(!valueA.IsLargerThan(valueB));
+        }
+
     }
 }
