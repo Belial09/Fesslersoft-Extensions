@@ -30,5 +30,10 @@ namespace Fesslersoft.Extensions
         {
             return (input.GetType() == type);
         }
+
+        public static bool IsNull(this object source)
+        {
+            return source == null;
+        }
     }
 }
