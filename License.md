@@ -17,7 +17,7 @@ Redistribution and use in source and binary forms, with or without
     from this software without specific prior written permission.
 
  4. Redistributions of any form whatsoever must retain the following
-    acknowledgment: 'This product includes software developed by the
+    acknowledgment: 'This product includes software developed by
     Manuel Feßler - http://codesnippets.fesslersoft.de.'
 
  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
