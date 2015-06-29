@@ -1,9 +1,13 @@
 #FesslerSoft.Extensions
 
-##Description
+##About the Library
 
-FesslerSoft.Extensions are collection of selected .NET Extension Methods posted on **http://codesnippets.fesslersoft.de**.
+FesslerSoft.Extensions are collection of selected .NET Extension Methods posted on **http://codesnippets.fesslersoft.de**. The Library will work with .NET Framework 3.5 and newer.
+
+##About Fesslersoft
+
 We provides source code snippets for multiple languages, e.g. Java, Python, C++, C#, VB.NET, XML, HTML, PHP, Javascript, jQuery, AngularJs, Batch etc...
+
 
 ##NuGet
 This Library is now also avaiable at NuGet! 
