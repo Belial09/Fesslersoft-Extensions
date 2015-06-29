@@ -11,16 +11,19 @@ namespace Fesslersoft.Extensions
 {
     public static class StringExtensions
     {
+
         /// <summary>
-        ///     Changes the encoding of a string.
+        /// Changes the encoding of a string.
         /// </summary>
         /// <param name="input">The input string.</param>
-        /// <param name="encoding">The new Encoding.</param>
+        /// <param name="sourceEncoding">The source encoding.</param>
+        /// <param name="targetEncoding">The target encoding.</param>
         /// <returns>A new encoded String</returns>
-        public static string ChangeEncoding(this string input, Encoding encoding)
+        public static string ChangeEncoding(this string input, Encoding sourceEncoding, Encoding targetEncoding)
         {
-            var bytes = encoding.GetBytes(input);
-            return encoding.GetString(bytes);
+            byte[] utfBytes = sourceEncoding.GetBytes(input);
+            byte[] isoBytes = Encoding.Convert(sourceEncoding, targetEncoding, utfBytes);
+            return targetEncoding.GetString(isoBytes);
         }
 
         /// <summary>
@@ -68,7 +71,7 @@ namespace Fesslersoft.Extensions
         /// </summary>
         /// <param name="source">The source Securestring.</param>
         /// <returns>The input Securestring as String.</returns>
-        public static string ToUnsecureString(this SecureString source)
+        public static string ToUnsecureString (this SecureString source)
         {
             var returnValue = IntPtr.Zero;
             try

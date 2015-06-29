@@ -5,7 +5,7 @@ using NUnit.Framework;
 namespace Fesslersoft.Extensions.Tests.Generic
 {
     [TestFixture]
-    public class Test
+    public class GenericExtensionsTest
     {
         [Test]
         public void Test_IsLargerThan_Int32_Int32_B_GreaterThan_A()
