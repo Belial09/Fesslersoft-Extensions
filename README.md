@@ -38,7 +38,7 @@ List of Extensions Methods included in this Library.
 10. **Size** Extensions
  * [Scale](http://codesnippets.fesslersoft.de/scale-a-size-object-by-percentage/)
 11. **String** Extensions
- * [ChangeEncoding]()
+ * [ChangeEncoding](http://codesnippets.fesslersoft.de/how-to-change-the-encoding-of-a-string-using-c-and-vb-net/)
  * [IsNotNullOrEmptyOrWhiteSpace](http://codesnippets.fesslersoft.de/how-to-check-if-a-string-is-null-or-empty-or-whitespace-in-c-or-vb-net/)
  * [IsNullOrEmptyOrWhiteSpace](http://codesnippets.fesslersoft.de/how-to-check-if-a-string-is-null-or-empty-or-whitespace-in-c-or-vb-net/)
  * [ToSecureString](http://codesnippets.fesslersoft.de/how-to-convert-a-string-to-securestring-using-c-and-vb-net/)
