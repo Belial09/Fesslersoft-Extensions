@@ -29,7 +29,7 @@ List of Extensions Methods included in this Library.
  * [ChangeExtension](http://codesnippets.fesslersoft.de/change-the-file-extension/)
 7. **Generic** Extensions
  * [IsLargerThan](http://codesnippets.fesslersoft.de/islargerthan-generic-extension-method-for-c-and-vb-net/)
- * [IsSmallerThan]()
+ * [IsSmallerThan](http://codesnippets.fesslersoft.de/issmallerthan-generic-extension-method-for-c-and-vb-net/)
 8. **Object** Extensions
  * [IsOfType](http://codesnippets.fesslersoft.de/isoftype-extension-method-for-c-and-vb-net/)
  * [IsNull](http://codesnippets.fesslersoft.de/isnull-extension-method/)
