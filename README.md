@@ -9,30 +9,30 @@ http://codesnippets.fesslersoft.de provides source code snippets for multiple la
 
 List of Extensions Methods included in this Library.
 
-1. Boolean Extensions
+1. **Boolean** Extensions
   * [ToJson](http://codesnippets.fesslersoft.de/convert-boolean-json-boolean-c-vb-net/)
-2. Character Extensions
+2. **Character** Extensions
  * [IsVowel](http://codesnippets.fesslersoft.de/how-to-check-if-a-character-is-a-vowel-in-c-or-vb-net/)
  * [IsUpperCase](http://codesnippets.fesslersoft.de/check-if-a-character-is-uppercase/)
-3. Date Extensions
+3. **Date** Extensions
  * [DifferenceInHours](http://codesnippets.fesslersoft.de/get-hours-difference-of-2-dates/)
-4. DbConnection Extensions
+4. **DbConnection** Extensions
  * [OpenIfClosed](http://codesnippets.fesslersoft.de/openifclosed-dbconnection-extension-method-for-c-and-vb-net/)
-5. Dictionary Extensions
+5. **Dictionary** Extensions
  * [AddIfNotExist]()
-6. FileInfo Extensions
+6. **FileInfo** Extensions
  * [ChangeExtension](http://codesnippets.fesslersoft.de/change-the-file-extension/)
-7. Generic Extensions
+7. **Generic** Extensions
  * [IsLargerThan]()
  * [IsSmallerThan]()
-8. Object Extensions
+8. **Object** Extensions
  * [IsOfType](http://codesnippets.fesslersoft.de/isoftype-extension-method-for-c-and-vb-net/)
  * [IsNull](http://codesnippets.fesslersoft.de/isnull-extension-method/)
-9. Random Extensions
+9. **Random** Extensions
  * [FlipCoin](http://codesnippets.fesslersoft.de/how-to-flip-a-coin-in-c-or-vb-net/)
-10. Size Extensions
+10. **Size** Extensions
  * [Scale](http://codesnippets.fesslersoft.de/scale-a-size-object-by-percentage/)
-11. String Extensions
+11. **String** Extensions
  * [ChangeEncoding]()
  * [IsNotNullOrEmptyOrWhiteSpace](http://codesnippets.fesslersoft.de/how-to-check-if-a-string-is-null-or-empty-or-whitespace-in-c-or-vb-net/)
  * [IsNullOrEmptyOrWhiteSpace](http://codesnippets.fesslersoft.de/how-to-check-if-a-string-is-null-or-empty-or-whitespace-in-c-or-vb-net/)
