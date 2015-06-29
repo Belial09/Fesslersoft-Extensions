@@ -5,6 +5,11 @@
 FesslerSoft.Extensions are collection of selected .NET Extension Methods posted on ** http://codesnippets.fesslersoft.de **.
 We provides source code snippets for multiple languages, e.g. Java, Python, C++, C#, VB.NET, XML, HTML, PHP, Javascript, jQuery, AngularJs, Batch etc...
 
+##NuGet
+This Library is now also avaiable at NuGet! 
+
+https://www.nuget.org/packages/Fesslersoft.Extensions/
+
 ##Content
 
 List of Extensions Methods included in this Library.
@@ -39,7 +44,4 @@ List of Extensions Methods included in this Library.
  * [ToSecureString](http://codesnippets.fesslersoft.de/how-to-convert-a-string-to-securestring-using-c-and-vb-net/)
  * [ToUnsecureString](http://codesnippets.fesslersoft.de/how-to-convert-a-securestring-to-string-using-c-and-vb-net/)
 
-##NuGet
-This Library is now also avaiable at NuGet! 
 
-https://www.nuget.org/packages/Fesslersoft.Extensions/
