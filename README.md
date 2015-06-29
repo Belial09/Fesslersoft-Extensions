@@ -28,7 +28,7 @@ List of Extensions Methods included in this Library.
 6. **FileInfo** Extensions
  * [ChangeExtension](http://codesnippets.fesslersoft.de/change-the-file-extension/)
 7. **Generic** Extensions
- * [IsLargerThan]()
+ * [IsLargerThan](http://codesnippets.fesslersoft.de/islargerthan-generic-extension-method-for-c-and-vb-net/)
  * [IsSmallerThan]()
 8. **Object** Extensions
  * [IsOfType](http://codesnippets.fesslersoft.de/isoftype-extension-method-for-c-and-vb-net/)
