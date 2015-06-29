@@ -115,5 +115,14 @@ namespace Fesslersoft.Extensions.Tests.Generic
             Assert.That(!valueA.IsLargerThan(valueB));
         }
 
+        [Test]
+        public void Test_IsLaragerThan_Double_Double_A_Equals_B()
+        {
+            String valueB = "10.00";
+            String valueA = "10.00";
+
+            Assert.That(!valueA.IsLargerThan(valueB));
+        }
+
     }
 }
