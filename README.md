@@ -10,7 +10,7 @@ http://codesnippets.fesslersoft.de provides source code snippets for multiple la
 List of Extensions Methods included in this Library.
 
 1. Boolean Extensions
-* [ToJson](http://codesnippets.fesslersoft.de/convert-boolean-json-boolean-c-vb-net/)
+  * [ToJson](http://codesnippets.fesslersoft.de/convert-boolean-json-boolean-c-vb-net/)
 2. Character Extensions
 3. Date Extensions
 4. DbConnection Extensions
