@@ -54,7 +54,7 @@ namespace Fesslersoft.Extensions
         /// <returns>The input String as Securestring.</returns>
         public static SecureString ToSecureString(this string source)
         {
-            if (string.IsNullOrWhiteSpace(source))
+            if (source.IsNullOrEmptyOrWhiteSpace())
             {
                 return null;
             }
