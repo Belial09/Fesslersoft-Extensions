@@ -47,5 +47,8 @@ List of Extensions Methods included in this Library.
  * [IsNullOrEmptyOrWhiteSpace](http://codesnippets.fesslersoft.de/how-to-check-if-a-string-is-null-or-empty-or-whitespace-in-c-or-vb-net/)
  * [ToSecureString](http://codesnippets.fesslersoft.de/how-to-convert-a-string-to-securestring-using-c-and-vb-net/)
  * [ToUnsecureString](http://codesnippets.fesslersoft.de/how-to-convert-a-securestring-to-string-using-c-and-vb-net/)
+ * [Left](http://codesnippets.fesslersoft.de/left-mid-right-functions-for-csharp/)
+ * [Right](http://codesnippets.fesslersoft.de/left-mid-right-functions-for-csharp/)
+ * [Mid](http://codesnippets.fesslersoft.de/left-mid-right-functions-for-csharp/)
 
 
