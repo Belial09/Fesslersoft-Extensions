@@ -84,5 +84,59 @@ namespace Fesslersoft.Extensions
                 Marshal.ZeroFreeGlobalAllocUnicode(returnValue);
             }
         }
+
+        /// <summary>
+        /// Returns a substring containing a specified number of characters from a string.
+        /// </summary>
+        /// <param name="input">String expression from which characters are returned.</param>
+        /// <param name="length">Numeric expression indicating how many characters to return. If 0, a zero-length string ("") is returned. If greater than or equal to the number of characters in string, the entire string is returned.</param>
+        /// <returns>Returns a substring containing a specified number of characters from the beginning (left side) of a string.</returns>
+        public static String Left(this string input, int length)
+        {
+            var result = "";
+            if ((input.Length <= 0)) return result;
+            if ((length > input.Length))
+            {
+                length = input.Length;
+            }
+            result = input.Substring(0, length);
+            return result;
+        }
+
+        /// <summary>
+        /// Returns a substring containing a specified number of characters from a string.
+        /// </summary>
+        /// <param name="input">String expression from which characters are returned.</param>
+        /// <param name="length">Character position in string at which the part to be taken begins.</param>
+        /// <returns>Returns a substring containing a specified number of characters from a string.</returns>
+        public static String Mid(string input, int start, int length)
+        {
+            var result = "";
+            if (((input.Length <= 0) || (start >= input.Length))) return result;
+            if ((start + length > input.Length))
+            {
+                length = (input.Length - start);
+            }
+            result = input.Substring(start, length);
+            return result;
+        }
+
+        /// <summary>
+        /// Returns a substring containing a specified number of characters from the end (right side) of a string.
+        /// </summary>
+        /// <param name="input">String expression from which the rightmost characters are returned.</param>
+        /// <param name="length">Numeric expression indicating how many characters to return. If 0, a zero-length string ("") is returned. If greater than or equal to the number of characters in string, the entire string is returned.</param>
+        /// <returns>Returns a substring containing a specified number of characters from the end (right side) of a string.</returns>
+        public static String Right(this string input, int length)
+        {
+            var result = "";
+            if ((input.Length <= 0)) return result;
+            if ((length > input.Length))
+            {
+                length = input.Length;
+            }
+            result = input.Substring((input.Length - length), length);
+            return result;
+        }
     }
 }
